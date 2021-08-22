@@ -1,0 +1,202 @@
+07/09/2021 15:45:20 [30976] set the loglevel to 1
+07/09/2021 15:45:20 [30978] set the loglevel to 1
+07/09/2021 15:45:20 [30978] sslvpn connection version:4.0.2332
+07/09/2021 15:45:20 [30978] rcv cmd:0 at state[0]
+07/09/2021 15:45:20 [30978] starting ssl vpn tunnel[4.0.2332]
+07/09/2021 15:45:20 [30982] route backup START
+07/09/2021 15:45:20 [30982] route backup DONE
+07/09/2021 15:45:20 [30984] execl /home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/helper/get_fortisslvpn_info /home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/helper agnigarh.iitg.ac.in 10443   ...
+07/09/2021 15:45:20 [30984] trusted CA dir: /home/sarthak/.fctsslvpn_trustca
+07/09/2021 15:45:20 [30984] set loglevel to 1
+07/09/2021 15:45:20 [30984] Peer's certificate is not valid. action is 1
+07/09/2021 15:45:20 [30984] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number:$            01:56:c2:9a:05:ac:78:f6:29:2a:5c:4d:64:dd:be:2b$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, O=DigiCert Inc, CN=DigiCert SHA2 Secure Server CA$        Validity$            Not Before: Jan 29 00:00:00 2020 GMT$            Not After : Mar 18 12:00:00 2022 GMT$        Subject: C=IN, ST=Assam, L=Guwahati, O=Indian Institute of Technology Guwahati, CN=*.iitg.ac.in$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:dd:bb:f7:27:54:3f:93:f4:51:5f:eb:e6:a8:b8:$                    a3:8f:6c:3b:ea:03:15:a6:90:b4:b6:c5:c7:f7:b8:$                    e7:35:17:fa:04:81:80:95:65:e8:c7:3e:1a:2a:d2:$                    65:76:77:72:c5:cb:77:74:03:c9:a2:f3:8f:a1:dd:$                    18:f7:50:cf:32:e1:de:9b:d3:2c:54:fa:3e:aa:c6:$                    39:14:4d:ca:bf:b2:36:c3:e6:81:ea:8b:3a:4a:1e:$                    fd:bb:4e:06:93:38:ee:3e:23:53:da:77:59:31:c5:$                    9f:7c:e9:4f:26:f5:7c:13:4b:57:a7:82:55:96:da:$                    bb:90:3f:2c:a2:2e:5d:3a:21:65:76:c8:06:8f:48:$                    6c:78:94:ee:bf:c9:d2:39:34:c5:23:2c:2d:f6:a3:$                    b7:a8:6c:00:cc:a9:b0:74:0e:69:d9:9d:46:70:3d:$                    7b:1c:5d:cb:0f:e0:3f:7d:72:4d:ff:58:e0:10:1a:$                    7c:3c:5b:af:9a:10:b8:9b:96:d1:82:1c:ee:d6:be:$                    8b:aa:10:01:d1:36:7b:57:b3:58:66:78:f6:7a:8f:$                    e9:96:0b:97:6d:c5:5f:3e:5e:9b:63:bd:cf:d4:0b:$                    3b:cf:f4:79:fe:be:fd:a8:6c:9d:74:2c:2f:ea:b7:$                    1c:95:c4:a2:f8:5c:6f:38:4b:5d:ce:1e:ab:d4:e2:$                    c6:47$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Authority Key Identifier: $                keyid:0F:80:61:1C:82:31:61:D5:2F:28:E7:8D:46:38:B4:2C:E1:C6:D9:E2$$            X509v3 Subject Key Identifier: $                25:D0:ED:76:08:81:B5:CE:A9:8D:25:CE:3D:1D:54:1E:D2:D4:4B:48$            X509v3 Subject Alternative Name: $                DNS:*.iitg.ac.in, DNS:iitg.ac.in$            X509v3 Key Usage: critical$                Digital Signature, Key Encipherment$            X509v3 Extended Key Usage: $                TLS Web Server Authentication, TLS Web Client Authentication$            X509v3 CRL Distribution Points: $$                Full Name:$                  URI:http://crl3.digicert.com/ssca-sha2-g6.crl$$                Full Name:$                  URI:http://crl4.digicert.com/ssca-sha2-g6.crl$$            X509v3 Certificate Policies: $                Policy: 2.16.840.1.114412.1.1$                  CPS: https://www.digicert.com/CPS$                Policy: 2.23.140.1.2.2$$            Authority Information Access: $                OCSP - URI:http://ocsp.digicert.com$                CA Issuers - URI:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt$$            X509v3 Basic Constraints: critical$                CA:FALSE$            CT Precertificate SCTs: $                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 29:79:BE:F0:9E:39:39:21:F0:56:73:9F:63:A5:77:E5:$                                BE:57:7D:9C:60:0A:F8:F9:4D:5D:26:5C:25:5D:C7:84$                    Timestamp : Jan 29 07:31:57.468 2020 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:22:C4:2B:40:31:34:CC:71:A9:FD:19:E6:$                                BB:D5:A3:9E:84:B5:F5:DD:7D:C3:4C:16:DC:EF:B8:8C:$                                34:BC:89:9F:02:21:00:EA:CA:AB:B9:4E:59:10:CA:5E:$                                D0:0C:A0:2E:C5:EC:9F:B5:EE:9D:7A:BC:E1:71:D1:5F:$                                30:03:D2:38:27:51:3C$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 22:45:45:07:59:55:24:56:96:3F:A1:2F:F1:F7:6D:86:$                                E0:23:26:63:AD:C0:4B:7F:5D:C6:83:5C:6E:E2:0F:02$                    Timestamp : Jan 29 07:31:57.523 2020 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:21:00:BA:32:36:F0:C1:6C:55:CC:27:1A:7D:$                                67:76:79:24:3D:C7:44:F8:9C:AF:6D:2A:64:1A:D9:BB:$                                43:C7:23:46:97:02:20:06:60:55:0D:89:66:05:C6:4A:$                                AE:D2:76:03:25:AB:9A:9A:06:2F:9C:BD:05:52:E6:AB:$                                31:71:64:AE:E4:D2:31$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 51:A3:B0:F5:FD:01:79:9C:56:6D:B8:37:78:8F:0C:A4:$                                7A:CC:1B:27:CB:F7:9E:88:42:9A:0D:FE:D4:8B:05:E5$                    Timestamp : Jan 29 07:31:57.571 2020 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:44:02:20:2D:38:1A:99:E7:35:67:58:94:AE:65:B1:$                                F4:4B:8C:72:C4:B3:AB:6D:F2:BF:2E:A9:08:5E:39:70:$                                0B:27:D8:27:02:20:65:77:1D:2F:F6:F6:98:70:57:98:$                                2D:7A:B4:E3:A3:DB:C7:C2:AF:06:83:CD:10:97:09:55:$                                20:5C:75:E5:D7:9A$    Signature Algorithm: sha256WithRSAEncryption$         49:83:0c:4e:06:27:d0:36:08:d1:cb:94:e3:6b:7c:c9:6e:b9:$         bc:eb:9d:12:02:62:3e:10:24:3c:ff:b5:da:7c:bf:46:1e:7f:$         aa:ed:ed:37:22:80:b3:f9:40:86:7c:fd:4e:3a:b4:da:01:8c:$         df:52:d9:29:fe:c8:fc:60:fd:b1:40:92:28:95:ae:67:25:f8:$         55:69:fd:62:65:fc:bb:ec:ba:d8:d9:bd:30:07:9a:f8:70:34:$         1a:3a:d5:ba:3e:9f:de:da:18:6a:1a:1d:59:3b:01:9f:83:4c:$         a5:90:91:93:f8:61:12:d5:c9:af:a7:48:4f:17:1b:25:42:7b:$         a3:7c:36:b9:55:52:58:c5:b5:e2:68:6e:72:4c:9d:f4:d7:ea:$         4d:2d:4f:9b:30:2e:89:89:10:e3:71:4e:96:85:56:4f:df:48:$         0d:bc:9d:2a:a7:eb:66:38:7f:59:90:3a:0b:f4:cd:aa:39:8a:$         36:e4:d5:2c:e7:7f:a7:67:2d:a0:51:8c:17:2d:f2:f1:5f:23:$         6d:c9:dd:54:1c:f6:e1:28:e8:b6:22:47:c0:aa:ce:f8:7e:14:$         06:82:fb:6a:82:47:66:d8:85:7d:29:11:1c:b5:eb:00:17:f6:$         d6:6e:1e:61:78:27:7a:7b:95:7c:cb:03:28:12:96:a4:76:1f:$         01:05:35:ca$
+07/09/2021 15:45:22 [30984] realm is enabled: 
+07/09/2021 15:45:22 [30984] no Content-Length
+07/09/2021 15:45:22 [30984] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly
+07/09/2021 15:45:23 [30984] no Content-Length
+07/09/2021 15:45:23 [30984] cookie: SVPNCOOKIE=zQ1+4The1sEFLYpEgPoSqaSwiZ5SJse3NdOOSBD0R8fVpNwOjAhROCAOWldoNX83fvIGlB6OAfyslcBeTmmWsZb44GK+yIdA5Bv1Ci/fQj27CUJR1vAQJesqP6ZDHpOCwYAeEMxqYUvZM/NYEE+wehdz19tswRfMRQzxNGvq0XVb/DPrhMi65QM8jAVUM/yZVxxV88I0HHFnqjPIhqZeyLLPh3XJbcd4KAgUZYg8Y3w/+kQio48l8/yO325TVrM3
+07/09/2021 15:45:23 [30984] no Content-Length
+07/09/2021 15:45:23 [30984] no Content-Length
+07/09/2021 15:45:23 [30984] 0|agnigarh.iitg.ac.in|10443|1||zQ1+4The1sEFLYpEgPoSqaSwiZ5SJse3NdOOSBD0R8fVpNwOjAhROCAOWldoNX83fvIGlB6OAfyslcBeTmmWsZb44GK+yIdA5Bv1Ci/fQj27CUJR1vAQJesqP6ZDHpOCwYAeEMxqYUvZM/NYEE+wehdz19tswRfMRQzxNGvq0XVb/DPrhMi65QM8jAVUM/yZVxxV88I0HHFnqjPIhqZeyLLPh3XJbcd4KAgUZYg8Y3w/+kQio48l8/yO325TVrM3|0
+07/09/2021 15:45:23 [30978] ssl vpn tunnel started
+07/09/2021 15:45:23 [30978] rcv cmd:0 at state[1]
+07/09/2021 15:45:23 [31013] server=agnigarh.iitg.ac.in[agnigarh.iitg.ac.in] port=10443[10443] version=1 tunnel= cookie=zQ1+4The1sEFLYpEgPoSqaSwiZ5SJse3NdOOSBD0R8fVpNwOjAhROCAOWldoNX83fvIGlB6OAfyslcBeTmmWsZb44GK+yIdA5Bv1Ci/fQj27CUJR1vAQJesqP6ZDHpOCwYAeEMxqYUvZM/NYEE+wehdz19tswRfMRQzxNGvq0XVb/DPrhMi65QM8jAVUM/yZVxxV88I0HHFnqjPIhqZeyLLPh3XJbcd4KAgUZYg8Y3w/+kQio48l8/yO325TVrM3 exclusive routing: 0
+
+07/09/2021 15:45:23 [31013] starting pppd
+07/09/2021 15:45:23 [31013] use tty:/dev/pts/2
+07/09/2021 15:45:23 [31013] connecting to agnigarh.iitg.ac.in:10443
+07/09/2021 15:45:24 [31013] [xml config]: GET /remote/fortisslvpn_xml ... (received 1072 bytes): 
+HTTP/1.1 200 OK
+Date: Fri, 09 Jul 2021 10:15:23 GMT
+Server: xxxxxxxx-xxxxx
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'self'; script-src 'self' https  (null) 'unsafe-eval' 'unsafe-inline' blob:;
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config heartbeat-interval='10' heartbeat-fail-count='10' heartbeat-idle-timeout='10' client-hello-timeout='60' /><tunnel-method value='ppp' /><tunnel-method value='tun' /><fos platform='FGT37D' major='6' minor='02' patch='3' build='1066' branch='1066' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='on' keep-alive='off' auto-connect='on' /><ipv4><dns ip='172.17.1.1' /><dns ip='172.17.1.2' /><assigned-addr ipv4='172.18.16.1' /></ipv4><idle-timeout val='300' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+07/09/2021 15:45:24 [31013] dns suffix: 
+
+07/09/2021 15:45:24 [31013] Got local address from ppp, interface will be  up
+07/09/2021 15:45:40 [31013] ppp interface is up
+07/09/2021 15:45:40 [31013] run_scutil 14.139.196.11 0 0...
+Generating pppd.resolv.conf...Done
+07/09/2021 15:45:41 [31111] begin sysconfig linux
+07/09/2021 15:45:41 [31111] Gateway to FGT: 192.168.1.1
+07/09/2021 15:45:41 [31111] delete route 1.1.1.1
+07/09/2021 15:45:41 [31111] Add the route for 14.139.196.11(192.168.1.1)
+07/09/2021 15:45:41 [31111] router add default gw 172.18.16.1
+07/09/2021 15:45:55 [30984] signal rcved, logout now
+07/09/2021 15:45:55 [31013] killing pppd ...
+07/09/2021 15:45:55 [31013] kill_child:31015
+07/09/2021 15:45:55 [31013] kill_child:31111
+07/09/2021 15:45:55 [30978] kill_child:31013
+07/09/2021 15:45:55 [30978] kill_child:30984
+07/09/2021 15:45:55 [31201] begin cleanup linux...
+07/09/2021 15:45:55 [31201] restore /etc/resolv.conf
+07/09/2021 15:45:55 [31201] clean up route...
+07/09/2021 15:45:55 [31201] truncate pppd.log
+07/09/2021 15:45:55 [31201] truncate forticlientsslvpn.log
+07/09/2021 15:45:55 [30978] FortiClient SSLVPN[4.0.2332] stopped
+07/09/2021 15:46:32 [31314] set the loglevel to 1
+07/09/2021 15:46:32 [31303] set the loglevel to 1
+07/09/2021 15:46:32 [31314] sslvpn connection version:4.0.2332
+07/09/2021 15:46:32 [31314] rcv cmd:0 at state[0]
+07/09/2021 15:46:32 [31314] starting ssl vpn tunnel[4.0.2332]
+07/09/2021 15:46:32 [31318] route backup START
+07/09/2021 15:46:32 [31318] route backup DONE
+07/09/2021 15:46:32 [31319] execl /home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/helper/get_fortisslvpn_info /home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/helper agnigarh.iitg.ac.in 10443   ...
+07/09/2021 15:46:32 [31319] trusted CA dir: /home/sarthak/.fctsslvpn_trustca
+07/09/2021 15:46:32 [31319] set loglevel to 1
+07/09/2021 15:46:32 [31319] Peer's certificate is not valid. action is 1
+07/09/2021 15:46:32 [31319] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number:$            01:56:c2:9a:05:ac:78:f6:29:2a:5c:4d:64:dd:be:2b$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, O=DigiCert Inc, CN=DigiCert SHA2 Secure Server CA$        Validity$            Not Before: Jan 29 00:00:00 2020 GMT$            Not After : Mar 18 12:00:00 2022 GMT$        Subject: C=IN, ST=Assam, L=Guwahati, O=Indian Institute of Technology Guwahati, CN=*.iitg.ac.in$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:dd:bb:f7:27:54:3f:93:f4:51:5f:eb:e6:a8:b8:$                    a3:8f:6c:3b:ea:03:15:a6:90:b4:b6:c5:c7:f7:b8:$                    e7:35:17:fa:04:81:80:95:65:e8:c7:3e:1a:2a:d2:$                    65:76:77:72:c5:cb:77:74:03:c9:a2:f3:8f:a1:dd:$                    18:f7:50:cf:32:e1:de:9b:d3:2c:54:fa:3e:aa:c6:$                    39:14:4d:ca:bf:b2:36:c3:e6:81:ea:8b:3a:4a:1e:$                    fd:bb:4e:06:93:38:ee:3e:23:53:da:77:59:31:c5:$                    9f:7c:e9:4f:26:f5:7c:13:4b:57:a7:82:55:96:da:$                    bb:90:3f:2c:a2:2e:5d:3a:21:65:76:c8:06:8f:48:$                    6c:78:94:ee:bf:c9:d2:39:34:c5:23:2c:2d:f6:a3:$                    b7:a8:6c:00:cc:a9:b0:74:0e:69:d9:9d:46:70:3d:$                    7b:1c:5d:cb:0f:e0:3f:7d:72:4d:ff:58:e0:10:1a:$                    7c:3c:5b:af:9a:10:b8:9b:96:d1:82:1c:ee:d6:be:$                    8b:aa:10:01:d1:36:7b:57:b3:58:66:78:f6:7a:8f:$                    e9:96:0b:97:6d:c5:5f:3e:5e:9b:63:bd:cf:d4:0b:$                    3b:cf:f4:79:fe:be:fd:a8:6c:9d:74:2c:2f:ea:b7:$                    1c:95:c4:a2:f8:5c:6f:38:4b:5d:ce:1e:ab:d4:e2:$                    c6:47$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Authority Key Identifier: $                keyid:0F:80:61:1C:82:31:61:D5:2F:28:E7:8D:46:38:B4:2C:E1:C6:D9:E2$$            X509v3 Subject Key Identifier: $                25:D0:ED:76:08:81:B5:CE:A9:8D:25:CE:3D:1D:54:1E:D2:D4:4B:48$            X509v3 Subject Alternative Name: $                DNS:*.iitg.ac.in, DNS:iitg.ac.in$            X509v3 Key Usage: critical$                Digital Signature, Key Encipherment$            X509v3 Extended Key Usage: $                TLS Web Server Authentication, TLS Web Client Authentication$            X509v3 CRL Distribution Points: $$                Full Name:$                  URI:http://crl3.digicert.com/ssca-sha2-g6.crl$$                Full Name:$                  URI:http://crl4.digicert.com/ssca-sha2-g6.crl$$            X509v3 Certificate Policies: $                Policy: 2.16.840.1.114412.1.1$                  CPS: https://www.digicert.com/CPS$                Policy: 2.23.140.1.2.2$$            Authority Information Access: $                OCSP - URI:http://ocsp.digicert.com$                CA Issuers - URI:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt$$            X509v3 Basic Constraints: critical$                CA:FALSE$            CT Precertificate SCTs: $                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 29:79:BE:F0:9E:39:39:21:F0:56:73:9F:63:A5:77:E5:$                                BE:57:7D:9C:60:0A:F8:F9:4D:5D:26:5C:25:5D:C7:84$                    Timestamp : Jan 29 07:31:57.468 2020 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:22:C4:2B:40:31:34:CC:71:A9:FD:19:E6:$                                BB:D5:A3:9E:84:B5:F5:DD:7D:C3:4C:16:DC:EF:B8:8C:$                                34:BC:89:9F:02:21:00:EA:CA:AB:B9:4E:59:10:CA:5E:$                                D0:0C:A0:2E:C5:EC:9F:B5:EE:9D:7A:BC:E1:71:D1:5F:$                                30:03:D2:38:27:51:3C$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 22:45:45:07:59:55:24:56:96:3F:A1:2F:F1:F7:6D:86:$                                E0:23:26:63:AD:C0:4B:7F:5D:C6:83:5C:6E:E2:0F:02$                    Timestamp : Jan 29 07:31:57.523 2020 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:21:00:BA:32:36:F0:C1:6C:55:CC:27:1A:7D:$                                67:76:79:24:3D:C7:44:F8:9C:AF:6D:2A:64:1A:D9:BB:$                                43:C7:23:46:97:02:20:06:60:55:0D:89:66:05:C6:4A:$                                AE:D2:76:03:25:AB:9A:9A:06:2F:9C:BD:05:52:E6:AB:$                                31:71:64:AE:E4:D2:31$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 51:A3:B0:F5:FD:01:79:9C:56:6D:B8:37:78:8F:0C:A4:$                                7A:CC:1B:27:CB:F7:9E:88:42:9A:0D:FE:D4:8B:05:E5$                    Timestamp : Jan 29 07:31:57.571 2020 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:44:02:20:2D:38:1A:99:E7:35:67:58:94:AE:65:B1:$                                F4:4B:8C:72:C4:B3:AB:6D:F2:BF:2E:A9:08:5E:39:70:$                                0B:27:D8:27:02:20:65:77:1D:2F:F6:F6:98:70:57:98:$                                2D:7A:B4:E3:A3:DB:C7:C2:AF:06:83:CD:10:97:09:55:$                                20:5C:75:E5:D7:9A$    Signature Algorithm: sha256WithRSAEncryption$         49:83:0c:4e:06:27:d0:36:08:d1:cb:94:e3:6b:7c:c9:6e:b9:$         bc:eb:9d:12:02:62:3e:10:24:3c:ff:b5:da:7c:bf:46:1e:7f:$         aa:ed:ed:37:22:80:b3:f9:40:86:7c:fd:4e:3a:b4:da:01:8c:$         df:52:d9:29:fe:c8:fc:60:fd:b1:40:92:28:95:ae:67:25:f8:$         55:69:fd:62:65:fc:bb:ec:ba:d8:d9:bd:30:07:9a:f8:70:34:$         1a:3a:d5:ba:3e:9f:de:da:18:6a:1a:1d:59:3b:01:9f:83:4c:$         a5:90:91:93:f8:61:12:d5:c9:af:a7:48:4f:17:1b:25:42:7b:$         a3:7c:36:b9:55:52:58:c5:b5:e2:68:6e:72:4c:9d:f4:d7:ea:$         4d:2d:4f:9b:30:2e:89:89:10:e3:71:4e:96:85:56:4f:df:48:$         0d:bc:9d:2a:a7:eb:66:38:7f:59:90:3a:0b:f4:cd:aa:39:8a:$         36:e4:d5:2c:e7:7f:a7:67:2d:a0:51:8c:17:2d:f2:f1:5f:23:$         6d:c9:dd:54:1c:f6:e1:28:e8:b6:22:47:c0:aa:ce:f8:7e:14:$         06:82:fb:6a:82:47:66:d8:85:7d:29:11:1c:b5:eb:00:17:f6:$         d6:6e:1e:61:78:27:7a:7b:95:7c:cb:03:28:12:96:a4:76:1f:$         01:05:35:ca$
+07/09/2021 15:46:34 [31319] realm is enabled: 
+07/09/2021 15:46:34 [31319] no Content-Length
+07/09/2021 15:46:34 [31319] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly
+07/09/2021 15:46:34 [31319] no Content-Length
+07/09/2021 15:46:34 [31319] cookie: SVPNCOOKIE=zK3t3MW171imycS2I8brGqKSr4JGRyRKGW6ecwkKRMVxjWcCt7mm2Y0bSFvSia99CfXDTY2d5tJpAqeAMBxMNb1PXlj2tNhip3B9PESPDwpLvpyDodmacBVQhDiB9VeT6XXQBDZ0nDIJYcp+5ZcIGP+IdELmzYTpjNDS8NcNtUiHSQuGL5gCt/vUoyNrzRK4KEq0b83PNaLd0sYEY3apkvx4IX1ZOhTrJl4+mXXQ4TCQpBfrsaWN3JPO1/ChsDE=
+07/09/2021 15:46:34 [31319] no Content-Length
+07/09/2021 15:46:35 [31319] no Content-Length
+07/09/2021 15:46:35 [31319] 0|agnigarh.iitg.ac.in|10443|1||zK3t3MW171imycS2I8brGqKSr4JGRyRKGW6ecwkKRMVxjWcCt7mm2Y0bSFvSia99CfXDTY2d5tJpAqeAMBxMNb1PXlj2tNhip3B9PESPDwpLvpyDodmacBVQhDiB9VeT6XXQBDZ0nDIJYcp+5ZcIGP+IdELmzYTpjNDS8NcNtUiHSQuGL5gCt/vUoyNrzRK4KEq0b83PNaLd0sYEY3apkvx4IX1ZOhTrJl4+mXXQ4TCQpBfrsaWN3JPO1/ChsDE=|0
+07/09/2021 15:46:35 [31314] ssl vpn tunnel started
+07/09/2021 15:46:35 [31314] rcv cmd:0 at state[1]
+07/09/2021 15:46:35 [31347] server=agnigarh.iitg.ac.in[agnigarh.iitg.ac.in] port=10443[10443] version=1 tunnel= cookie=zK3t3MW171imycS2I8brGqKSr4JGRyRKGW6ecwkKRMVxjWcCt7mm2Y0bSFvSia99CfXDTY2d5tJpAqeAMBxMNb1PXlj2tNhip3B9PESPDwpLvpyDodmacBVQhDiB9VeT6XXQBDZ0nDIJYcp+5ZcIGP+IdELmzYTpjNDS8NcNtUiHSQuGL5gCt/vUoyNrzRK4KEq0b83PNaLd0sYEY3apkvx4IX1ZOhTrJl4+mXXQ4TCQpBfrsaWN3JPO1/ChsDE= exclusive routing: 0
+
+07/09/2021 15:46:35 [31347] starting pppd
+07/09/2021 15:46:35 [31347] use tty:/dev/pts/2
+07/09/2021 15:46:35 [31347] connecting to agnigarh.iitg.ac.in:10443
+07/09/2021 15:46:35 [31347] [xml config]: GET /remote/fortisslvpn_xml ... (received 1072 bytes): 
+HTTP/1.1 200 OK
+Date: Fri, 09 Jul 2021 10:16:35 GMT
+Server: xxxxxxxx-xxxxx
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'self'; script-src 'self' https  (null) 'unsafe-eval' 'unsafe-inline' blob:;
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config heartbeat-interval='10' heartbeat-fail-count='10' heartbeat-idle-timeout='10' client-hello-timeout='60' /><tunnel-method value='ppp' /><tunnel-method value='tun' /><fos platform='FGT37D' major='6' minor='02' patch='3' build='1066' branch='1066' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='on' keep-alive='off' auto-connect='on' /><ipv4><dns ip='172.17.1.1' /><dns ip='172.17.1.2' /><assigned-addr ipv4='172.18.16.1' /></ipv4><idle-timeout val='300' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+07/09/2021 15:46:35 [31347] dns suffix: 
+
+07/09/2021 15:46:35 [31347] Got local address from ppp, interface will be  up
+07/09/2021 15:46:44 [31347] ppp interface is up
+07/09/2021 15:46:44 [31347] run_scutil 14.139.196.11 0 0...
+Generating pppd.resolv.conf...Done
+07/09/2021 15:46:45 [31406] begin sysconfig linux
+07/09/2021 15:46:45 [31406] Gateway to FGT: 192.168.1.1
+07/09/2021 15:46:45 [31406] delete route 1.1.1.1
+07/09/2021 15:46:45 [31406] Add the route for 14.139.196.11(192.168.1.1)
+07/09/2021 15:46:45 [31406] router add default gw 172.18.16.1
+07/09/2021 15:47:47 [31347] killing pppd ...
+07/09/2021 15:47:47 [31319] signal rcved, logout now
+07/09/2021 15:47:47 [31314] kill_child:31347
+07/09/2021 15:47:47 [31347] kill_child:31349
+07/09/2021 15:47:47 [31314] kill_child:31319
+07/09/2021 15:47:47 [31347] killing pppd ...
+07/09/2021 15:47:47 [31347] kill_child:31406
+07/09/2021 15:47:47 [31552] begin cleanup linux...
+07/09/2021 15:47:47 [31552] restore /etc/resolv.conf
+07/09/2021 15:47:47 [31552] clean up route...
+07/09/2021 15:47:47 [31552] truncate pppd.log
+07/09/2021 15:47:48 [31552] truncate forticlientsslvpn.log
+07/09/2021 15:47:48 [31314] FortiClient SSLVPN[4.0.2332] stopped
+07/27/2021 19:17:16 [27776] set the loglevel to 1
+07/27/2021 19:17:16 [28031] set the loglevel to 1
+07/27/2021 19:17:16 [28031] sslvpn connection version:4.0.2332
+07/27/2021 19:17:16 [28031] rcv cmd:0 at state[0]
+07/27/2021 19:17:16 [28031] starting ssl vpn tunnel[4.0.2332]
+07/27/2021 19:17:16 [28035] route backup START
+07/27/2021 19:17:16 [28035] route backup DONE
+07/27/2021 19:17:16 [28036] execl /home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/./helper agnigarh.iitg.ac.in 10443   ...
+07/27/2021 19:17:16 [28036] trusted CA dir: /home/sarthak/.fctsslvpn_trustca
+07/27/2021 19:17:16 [28036] set loglevel to 1
+07/27/2021 19:17:17 [28036] Peer's certificate is not valid. action is 1
+07/27/2021 19:17:17 [28036] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number:$            01:56:c2:9a:05:ac:78:f6:29:2a:5c:4d:64:dd:be:2b$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, O=DigiCert Inc, CN=DigiCert SHA2 Secure Server CA$        Validity$            Not Before: Jan 29 00:00:00 2020 GMT$            Not After : Mar 18 12:00:00 2022 GMT$        Subject: C=IN, ST=Assam, L=Guwahati, O=Indian Institute of Technology Guwahati, CN=*.iitg.ac.in$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:dd:bb:f7:27:54:3f:93:f4:51:5f:eb:e6:a8:b8:$                    a3:8f:6c:3b:ea:03:15:a6:90:b4:b6:c5:c7:f7:b8:$                    e7:35:17:fa:04:81:80:95:65:e8:c7:3e:1a:2a:d2:$                    65:76:77:72:c5:cb:77:74:03:c9:a2:f3:8f:a1:dd:$                    18:f7:50:cf:32:e1:de:9b:d3:2c:54:fa:3e:aa:c6:$                    39:14:4d:ca:bf:b2:36:c3:e6:81:ea:8b:3a:4a:1e:$                    fd:bb:4e:06:93:38:ee:3e:23:53:da:77:59:31:c5:$                    9f:7c:e9:4f:26:f5:7c:13:4b:57:a7:82:55:96:da:$                    bb:90:3f:2c:a2:2e:5d:3a:21:65:76:c8:06:8f:48:$                    6c:78:94:ee:bf:c9:d2:39:34:c5:23:2c:2d:f6:a3:$                    b7:a8:6c:00:cc:a9:b0:74:0e:69:d9:9d:46:70:3d:$                    7b:1c:5d:cb:0f:e0:3f:7d:72:4d:ff:58:e0:10:1a:$                    7c:3c:5b:af:9a:10:b8:9b:96:d1:82:1c:ee:d6:be:$                    8b:aa:10:01:d1:36:7b:57:b3:58:66:78:f6:7a:8f:$                    e9:96:0b:97:6d:c5:5f:3e:5e:9b:63:bd:cf:d4:0b:$                    3b:cf:f4:79:fe:be:fd:a8:6c:9d:74:2c:2f:ea:b7:$                    1c:95:c4:a2:f8:5c:6f:38:4b:5d:ce:1e:ab:d4:e2:$                    c6:47$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Authority Key Identifier: $                keyid:0F:80:61:1C:82:31:61:D5:2F:28:E7:8D:46:38:B4:2C:E1:C6:D9:E2$$            X509v3 Subject Key Identifier: $                25:D0:ED:76:08:81:B5:CE:A9:8D:25:CE:3D:1D:54:1E:D2:D4:4B:48$            X509v3 Subject Alternative Name: $                DNS:*.iitg.ac.in, DNS:iitg.ac.in$            X509v3 Key Usage: critical$                Digital Signature, Key Encipherment$            X509v3 Extended Key Usage: $                TLS Web Server Authentication, TLS Web Client Authentication$            X509v3 CRL Distribution Points: $$                Full Name:$                  URI:http://crl3.digicert.com/ssca-sha2-g6.crl$$                Full Name:$                  URI:http://crl4.digicert.com/ssca-sha2-g6.crl$$            X509v3 Certificate Policies: $                Policy: 2.16.840.1.114412.1.1$                  CPS: https://www.digicert.com/CPS$                Policy: 2.23.140.1.2.2$$            Authority Information Access: $                OCSP - URI:http://ocsp.digicert.com$                CA Issuers - URI:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt$$            X509v3 Basic Constraints: critical$                CA:FALSE$            CT Precertificate SCTs: $                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 29:79:BE:F0:9E:39:39:21:F0:56:73:9F:63:A5:77:E5:$                                BE:57:7D:9C:60:0A:F8:F9:4D:5D:26:5C:25:5D:C7:84$                    Timestamp : Jan 29 07:31:57.468 2020 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:20:22:C4:2B:40:31:34:CC:71:A9:FD:19:E6:$                                BB:D5:A3:9E:84:B5:F5:DD:7D:C3:4C:16:DC:EF:B8:8C:$                                34:BC:89:9F:02:21:00:EA:CA:AB:B9:4E:59:10:CA:5E:$                                D0:0C:A0:2E:C5:EC:9F:B5:EE:9D:7A:BC:E1:71:D1:5F:$                                30:03:D2:38:27:51:3C$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 22:45:45:07:59:55:24:56:96:3F:A1:2F:F1:F7:6D:86:$                                E0:23:26:63:AD:C0:4B:7F:5D:C6:83:5C:6E:E2:0F:02$                    Timestamp : Jan 29 07:31:57.523 2020 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:45:02:21:00:BA:32:36:F0:C1:6C:55:CC:27:1A:7D:$                                67:76:79:24:3D:C7:44:F8:9C:AF:6D:2A:64:1A:D9:BB:$                                43:C7:23:46:97:02:20:06:60:55:0D:89:66:05:C6:4A:$                                AE:D2:76:03:25:AB:9A:9A:06:2F:9C:BD:05:52:E6:AB:$                                31:71:64:AE:E4:D2:31$                Signed Certificate Timestamp:$                    Version   : v1(0)$                    Log ID    : 51:A3:B0:F5:FD:01:79:9C:56:6D:B8:37:78:8F:0C:A4:$                                7A:CC:1B:27:CB:F7:9E:88:42:9A:0D:FE:D4:8B:05:E5$                    Timestamp : Jan 29 07:31:57.571 2020 GMT$                    Extensions: none$                    Signature : ecdsa-with-SHA256$                                30:44:02:20:2D:38:1A:99:E7:35:67:58:94:AE:65:B1:$                                F4:4B:8C:72:C4:B3:AB:6D:F2:BF:2E:A9:08:5E:39:70:$                                0B:27:D8:27:02:20:65:77:1D:2F:F6:F6:98:70:57:98:$                                2D:7A:B4:E3:A3:DB:C7:C2:AF:06:83:CD:10:97:09:55:$                                20:5C:75:E5:D7:9A$    Signature Algorithm: sha256WithRSAEncryption$         49:83:0c:4e:06:27:d0:36:08:d1:cb:94:e3:6b:7c:c9:6e:b9:$         bc:eb:9d:12:02:62:3e:10:24:3c:ff:b5:da:7c:bf:46:1e:7f:$         aa:ed:ed:37:22:80:b3:f9:40:86:7c:fd:4e:3a:b4:da:01:8c:$         df:52:d9:29:fe:c8:fc:60:fd:b1:40:92:28:95:ae:67:25:f8:$         55:69:fd:62:65:fc:bb:ec:ba:d8:d9:bd:30:07:9a:f8:70:34:$         1a:3a:d5:ba:3e:9f:de:da:18:6a:1a:1d:59:3b:01:9f:83:4c:$         a5:90:91:93:f8:61:12:d5:c9:af:a7:48:4f:17:1b:25:42:7b:$         a3:7c:36:b9:55:52:58:c5:b5:e2:68:6e:72:4c:9d:f4:d7:ea:$         4d:2d:4f:9b:30:2e:89:89:10:e3:71:4e:96:85:56:4f:df:48:$         0d:bc:9d:2a:a7:eb:66:38:7f:59:90:3a:0b:f4:cd:aa:39:8a:$         36:e4:d5:2c:e7:7f:a7:67:2d:a0:51:8c:17:2d:f2:f1:5f:23:$         6d:c9:dd:54:1c:f6:e1:28:e8:b6:22:47:c0:aa:ce:f8:7e:14:$         06:82:fb:6a:82:47:66:d8:85:7d:29:11:1c:b5:eb:00:17:f6:$         d6:6e:1e:61:78:27:7a:7b:95:7c:cb:03:28:12:96:a4:76:1f:$         01:05:35:ca$
+07/27/2021 19:17:19 [28036] realm is enabled: 
+07/27/2021 19:17:19 [28036] no Content-Length
+07/27/2021 19:17:19 [28036] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly
+07/27/2021 19:17:19 [28036] no Content-Length
+07/27/2021 19:17:19 [28036] cookie: SVPNCOOKIE=SCwqeWqnH4cZUpp+o9Ta7sLJrc8FDggmKfTPDUqKxHUvgrciJzRZ+dZPurDTplw3OD4Ue4GnmXfX4P/2KenGtvDXVjFp5ADrNXZF2B4YN6R/3ixGMa6ryPmHgMqjE/OXV7PtyjSD4XFiHv22YpoDSZutimRelnAMgXbjLWI3Mb2MmuFbxYYd1jYMXSUzn/gBhzn8Gu0D5FyG9N0M/REDLkMbE7GTHI85J0TwvIQu+pZ6Rn5ALjaEXTbRgVBHo1MGBw==
+07/27/2021 19:17:20 [28036] no Content-Length
+07/27/2021 19:17:20 [28036] no Content-Length
+07/27/2021 19:17:20 [28036] 0|agnigarh.iitg.ac.in|10443|1||SCwqeWqnH4cZUpp+o9Ta7sLJrc8FDggmKfTPDUqKxHUvgrciJzRZ+dZPurDTplw3OD4Ue4GnmXfX4P/2KenGtvDXVjFp5ADrNXZF2B4YN6R/3ixGMa6ryPmHgMqjE/OXV7PtyjSD4XFiHv22YpoDSZutimRelnAMgXbjLWI3Mb2MmuFbxYYd1jYMXSUzn/gBhzn8Gu0D5FyG9N0M/REDLkMbE7GTHI85J0TwvIQu+pZ6Rn5ALjaEXTbRgVBHo1MGBw==|0
+07/27/2021 19:17:20 [28031] ssl vpn tunnel started
+07/27/2021 19:17:20 [28040] server=agnigarh.iitg.ac.in[agnigarh.iitg.ac.in] port=10443[10443] version=1 tunnel= cookie=SCwqeWqnH4cZUpp+o9Ta7sLJrc8FDggmKfTPDUqKxHUvgrciJzRZ+dZPurDTplw3OD4Ue4GnmXfX4P/2KenGtvDXVjFp5ADrNXZF2B4YN6R/3ixGMa6ryPmHgMqjE/OXV7PtyjSD4XFiHv22YpoDSZutimRelnAMgXbjLWI3Mb2MmuFbxYYd1jYMXSUzn/gBhzn8Gu0D5FyG9N0M/REDLkMbE7GTHI85J0TwvIQu+pZ6Rn5ALjaEXTbRgVBHo1MGBw== exclusive routing: 0
+
+07/27/2021 19:17:20 [28040] starting pppd
+07/27/2021 19:17:20 [28040] use tty:/dev/pts/3
+07/27/2021 19:17:20 [28040] connecting to agnigarh.iitg.ac.in:10443
+07/27/2021 19:17:20 [28040] [xml config]: GET /remote/fortisslvpn_xml ... (received 1072 bytes): 
+HTTP/1.1 200 OK
+Date: Tue, 27 Jul 2021 13:47:20 GMT
+Server: xxxxxxxx-xxxxx
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'self'; script-src 'self' https  (null) 'unsafe-eval' 'unsafe-inline' blob:;
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config heartbeat-interval='10' heartbeat-fail-count='10' heartbeat-idle-timeout='10' client-hello-timeout='60' /><tunnel-method value='ppp' /><tunnel-method value='tun' /><fos platform='FGT37D' major='6' minor='02' patch='3' build='1066' branch='1066' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='on' keep-alive='off' auto-connect='on' /><ipv4><dns ip='172.17.1.1' /><dns ip='172.17.1.2' /><assigned-addr ipv4='172.18.16.7' /></ipv4><idle-timeout val='300' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+07/27/2021 19:17:20 [28040] dns suffix: 
+
+07/27/2021 19:17:21 [28040] Got local address from ppp, interface will be  up
+07/27/2021 19:17:32 [28040] ppp interface is up
+07/27/2021 19:17:32 [28040] run_scutil 14.139.196.11 0 0...
+Generating pppd.resolv.conf...Done
+07/27/2021 19:17:33 [28122] begin sysconfig linux
+07/27/2021 19:17:33 [28122] Gateway to FGT: 192.168.1.1
+07/27/2021 19:17:33 [28122] delete route 1.1.1.1
+07/27/2021 19:17:33 [28122] Add the route for 14.139.196.11(192.168.1.1)
+07/27/2021 19:17:33 [28122] router add default gw 172.18.16.7
+07/27/2021 19:32:01 [28031] rcv cmd:1 at state[1]
+07/27/2021 19:32:01 [28031] stopping ssl vpn tunnel[v4.0.2332]
+07/27/2021 19:32:01 [28031] kill_child:28040
+07/27/2021 19:32:01 [28031] kill_child:28036
+07/27/2021 19:32:01 [28036] signal rcved, logout now
+07/27/2021 19:32:01 [28040] killing pppd ...
+07/27/2021 19:32:01 [28040] kill_child:28042
+07/27/2021 19:32:01 [28040] kill_child:28122
+07/27/2021 19:32:01 [28031] tunnel terminated
+07/27/2021 19:32:01 [29969] begin cleanup linux...
+07/27/2021 19:32:01 [29969] restore /etc/resolv.conf
+07/27/2021 19:32:01 [29969] clean up route...
+07/27/2021 19:32:01 [29969] truncate pppd.log
+07/27/2021 19:32:01 [29969] truncate forticlientsslvpn.log
+07/27/2021 19:32:01 [28031] ssl vpn tunnel stopped
+07/27/2021 19:32:01 [28031] rcv cmd:2 at state[0]

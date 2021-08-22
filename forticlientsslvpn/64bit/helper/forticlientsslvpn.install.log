@@ -1,0 +1,9 @@
+Checking if pppd is installed...OK
+Checking if iproute package is installed...OK
+Setup /home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/./helper/subproc
+/home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/./helper/waitppp.sh
+begin setup at /home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/helper/
+Checking if pppd is installed...OK
+Checking if iproute package is installed...OK
+Setup /home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/helper/subproc
+/home/sarthak/Documents/IITGDocker/forticlientsslvpn/64bit/helper/waitppp.sh
